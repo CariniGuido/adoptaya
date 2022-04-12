@@ -1,0 +1,215 @@
+body {
+  background-color: rgb(221, 123, 24);
+
+
+  background-image: url(../img/perroygato.png);
+  background-size: 30%;
+  overflow-x: hidden;
+  color: #0f1419;
+  width: 100%;
+  margin: 0;
+  height: 100%;
+  padding: 0%;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+
+
+
+#title a {
+  border: 30px;
+  text-anchor: middle;
+  font-size: xx-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  padding: 5px;
+  border: 4px;
+
+  color: blanchedalmond;
+  margin-bottom: 5px;
+
+  text-decoration: none;
+}
+
+#nav-bar {
+  background-color: rgb(0, 0, 0);
+  border: 30px;
+  padding: 15px;
+  text-anchor: middle;
+  font-size: 100%;
+  color: black;
+  text-decoration: none;
+
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  display: flex;
+
+  flex-direction: column;
+}
+
+#nav-bar :hover {
+  color: rgb(99, 104, 102);
+}
+
+#header {
+  text-align: left;
+  font-size: x-large;
+  text-decoration: none;
+  border-radius: 12px;
+  padding: 15px 0;
+  margin-top: 10px;
+  align-items: flex-start;
+}
+
+.header__menu__ {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.header__menu__ {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+
+  .header__menu__ {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+
+  #title a {
+    border: 30px;
+    text-anchor: middle;
+    font-size: xx-large;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-decoration: none;
+    padding: 5px;
+    border: 4px;
+
+    color: blanchedalmond;
+    margin-bottom: 5px;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+  }
+
+
+
+
+
+}
+
+.header__menu__ a {
+  text-decoration: none;
+  color: blanchedalmond;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+p {
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: left 2px;
+  margin: right 50%;
+  border: 12px;
+  display: block;
+}
+
+h3 {
+  text-decoration-style: solid;
+  height: auto;
+}
+
+.fotogrid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  justify-items: center
+}
+
+
+h4 {
+  padding-block-end: left;
+  font-size: large;
+}
+
+
+main {
+  width: 90%;
+  height: 80%;
+  margin: auto;
+  background-color: rgb(99, 104, 102);
+  padding: 15px;
+}
+
+.contacto__Footer {
+  background-color: black;
+  color: blanchedalmond;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 15px;
+  font-size: larger;
+}
+
+.contacto__Footer div:last-child {
+  width: 100%;
+  text-align: center;
+  font-size: large;
+}
+
+footer {
+  margin-top: 15px;
+  font-size: larger;
+  height: 100%;
+  width: 100%;
+
+
+
+
+}
+
+.grid_pagina {
+
+  display: grid;
+  grid-template-rows: 25% 25% 15%;
+
+}
+
+
+fieldset {
+
+  width: 90%;
+
+
+}
+
+legend {
+
+  font-size: large;
+}
+
+img {
+
+  width: 200px;
+  margin-bottom: 5%;
+}
