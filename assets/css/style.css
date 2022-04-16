@@ -1,7 +1,6 @@
 body {
   background-color: rgb(221, 123, 24);
 
-
   background-image: url(../img/perroygato.png);
   background-size: 30%;
   overflow-x: hidden;
@@ -14,9 +13,6 @@ body {
   font-size: 16px;
   text-decoration: none;
 }
-
-
-
 
 #title a {
   border: 30px;
@@ -41,7 +37,6 @@ body {
   font-size: 100%;
   color: black;
   text-decoration: none;
-
 
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
@@ -78,14 +73,6 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-
-  .header__menu__ {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-  }
-
   #title a {
     border: 30px;
     text-anchor: middle;
@@ -102,11 +89,6 @@ body {
     text-decoration: none;
     text-align: center;
   }
-
-
-
-
-
 }
 
 .header__menu__ a {
@@ -114,10 +96,7 @@ body {
   color: blanchedalmond;
   display: flex;
   flex-direction: column;
-
-
 }
-
 
 h2 {
   font-family: "Times New Roman", Times, serif;
@@ -142,15 +121,13 @@ h3 {
   grid-template-rows: 1fr 1fr;
   justify-content: center;
   align-items: center;
-  justify-items: center
+  justify-items: center;
 }
-
 
 h4 {
   padding-block-end: left;
   font-size: large;
 }
-
 
 main {
   width: 90%;
@@ -182,34 +159,22 @@ footer {
   font-size: larger;
   height: 100%;
   width: 100%;
-
-
-
-
 }
 
 .grid_pagina {
-
   display: grid;
   grid-template-rows: 25% 25% 15%;
-
 }
 
-
 fieldset {
-
   width: 90%;
-
-
 }
 
 legend {
-
   font-size: large;
 }
 
 img {
-
   width: 200px;
   margin-bottom: 5%;
 }
@@ -219,7 +184,6 @@ img {
   height: 36px;
   border-radius: 50%;
   border-left-color: rgb(221, 123, 24);
-  
 
   animation: spin 2s ease infinite;
 }
@@ -232,7 +196,4 @@ img {
   100% {
     transform: rotate(360deg);
   }
-
-
 }
-
