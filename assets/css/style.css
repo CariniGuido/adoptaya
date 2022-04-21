@@ -29,6 +29,16 @@ body {
   text-decoration: none;
 }
 
+#carouselExampleControlsNoTouching .carousel-inner img {
+  object-fit: scale-down;
+  height: 50vh;
+  width: 100%;
+}
+h3 {
+  text-align: center;
+  margin-top: 10%;
+}
+
 #nav-bar {
   background-color: rgb(0, 0, 0);
   border: 30px;
@@ -195,5 +205,48 @@ img {
 
   100% {
     transform: rotate(360deg);
+  }
+}
+.logoperro {
+  height: 50px;
+  width: 50px;
+  padding: 0%;
+  margin: 5px;
+  margin-top: 5px;
+
+  display: flex;
+  flex-direction: initial;
+}
+
+.logoperro {
+  animation: rotate-top 0.5s steps(2, end) 6 alternate-reverse both;
+}
+@keyframes rotate-top {
+  0% {
+    transform: rotate(0);
+    transform-origin: top;
+  }
+  100% {
+    transform: rotate(360deg);
+    transform-origin: top;
+  }
+}
+
+.movi_texto {
+  -webkit-animation: focus-in-contract-bck 1s ninguna;
+  animation: focus-in-contract-bck 1s ninguna;
+}
+
+@keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    transform: translateZ(300px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(12px);
+    filter: blur(0);
+    opacity: 1;
   }
 }
