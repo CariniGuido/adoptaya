@@ -1,4 +1,4 @@
-$font-franklin: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+@import 'variable'; 
 
 body {
   background-color: rgb(221, 123, 24);
@@ -230,3 +230,4 @@ img {
     transform-origin: top;
   }
 }
+
