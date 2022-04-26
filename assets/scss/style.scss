@@ -1,5 +1,8 @@
+$font-franklin: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
 body {
-  background-color: #dd7b18;
+  background-color: rgb(221, 123, 24);
+
   background-image: url(../img/perroygato.png);
   background-size: 30%;
   overflow-x: hidden;
@@ -10,44 +13,55 @@ body {
   padding: 0%;
   font-family: Helvetica, sans-serif;
   font-size: 16px;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 #title a {
   border: 30px;
   text-anchor: middle;
   font-size: xx-large;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: $font-franklin;
   text-decoration: none;
   padding: 5px;
   border: 4px;
+
   color: blanchedalmond;
   margin-bottom: 5px;
-  text-decoration: none; }
+
+  text-decoration: none;
+}
 
 #carouselExampleControlsNoTouching .carousel-inner img {
   object-fit: scale-down;
   height: 50vh;
-  width: 100%; }
-
+  width: 100%;
+}
 h3 {
   text-align: center;
-  margin-top: 10%; }
+  margin-top: 10%;
+}
 
 #nav-bar {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   border: 30px;
   padding: 15px;
   text-anchor: middle;
   font-size: 100%;
   color: black;
   text-decoration: none;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  font-family: $font-franklin;
   text-align: center;
   display: flex;
-  flex-direction: column; }
 
-#nav-bar a:hover {
-  color: #636866; }
+  flex-direction: column;
+}
+
+#nav-bar a {
+  &:hover {
+    color: rgb(99, 104, 102);
+  }
+}
 
 #header {
   text-align: left;
@@ -56,37 +70,46 @@ h3 {
   border-radius: 12px;
   padding: 15px 0;
   margin-top: 10px;
-  align-items: flex-start; }
-  #header .header__menu__ {
+  align-items: flex-start;
+
+  &__menu__ {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start; }
+    align-items: flex-start;
+  }
+  
+}
 
 @media screen and (min-width: 768px) {
   #title a {
     border: 30px;
     text-anchor: middle;
     font-size: xx-large;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: $font-franklin;
     text-decoration: none;
     padding: 5px;
     border: 4px;
+
     color: blanchedalmond;
     margin-bottom: 5px;
     display: block;
     margin: auto;
     text-decoration: none;
-    text-align: center; } }
+    text-align: center;
+  }
+}
 
 .header__menu__ a {
   text-decoration: none;
   color: blanchedalmond;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 h2 {
-  font-family: "Times New Roman", Times, serif; }
+  font-family: "Times New Roman", Times, serif;
+}
 
 p {
   font-size: x-large;
@@ -94,29 +117,34 @@ p {
   margin: left 2px;
   margin: right 50%;
   border: 12px;
-  display: block; }
+  display: block;
+}
 
 h3 {
   text-decoration-style: solid;
-  height: auto; }
+  height: auto;
+}
 
 .fotogrid {
   display: grid;
   grid-template-rows: 1fr 1fr;
   justify-content: center;
   align-items: center;
-  justify-items: center; }
+  justify-items: center;
+}
 
 h4 {
   padding-block-end: left;
-  font-size: large; }
+  font-size: large;
+}
 
 main {
   width: 90%;
   height: 80%;
   margin: auto;
-  background-color: #636866;
-  padding: 15px; }
+  background-color: rgb(99, 104, 102);
+  padding: 15px;
+}
 
 .contacto__Footer {
   background-color: black;
@@ -126,63 +154,79 @@ main {
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 15px;
-  font-size: larger; }
+  font-size: larger;
+}
 
 .contacto__Footer div:last-child {
   width: 100%;
   text-align: center;
-  font-size: large; }
+  font-size: large;
+}
 
 footer {
   margin-top: 15px;
   font-size: larger;
   height: 100%;
-  width: 100%; }
+  width: 100%;
+}
 
 .grid_pagina {
   display: grid;
-  grid-template-rows: 25% 25% 15%; }
+  grid-template-rows: 25% 25% 15%;
+}
 
 fieldset {
-  width: 90%; }
+  width: 90%;
+}
 
 legend {
-  font-size: large; }
+  font-size: large;
+}
 
 img {
   width: 200px;
-  margin-bottom: 5%; }
-
+  margin-bottom: 5%;
+}
 .spinner {
   border: 4px solid rgba(0, 0, 0, 0.1);
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  border-left-color: #dd7b18;
-  animation: spin 2s ease infinite; }
+  border-left-color: rgb(221, 123, 24);
+
+  animation: spin 2s ease infinite;
+}
 
 @keyframes spin {
   0% {
-    transform: rotate(0deg); }
-  100% {
-    transform: rotate(360deg); } }
+    transform: rotate(0deg);
+  }
 
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .logoperro {
   height: 50px;
   width: 50px;
   padding: 0%;
   margin: 5px;
   margin-top: 5px;
+
   display: flex;
-  flex-direction: initial; }
+  flex-direction: initial;
+}
 
 .logoperro {
-  animation: rotate-top 0.5s steps(2, end) 6 alternate-reverse both; }
-
+  animation: rotate-top 0.5s steps(2, end) 6 alternate-reverse both;
+}
 @keyframes rotate-top {
   0% {
     transform: rotate(0);
-    transform-origin: top; }
+    transform-origin: top;
+  }
   100% {
     transform: rotate(360deg);
-    transform-origin: top; } }
+    transform-origin: top;
+  }
+}
