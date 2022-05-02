@@ -1,0 +1,12 @@
+@mixin fontSize ($size,$weight ) {
+    font-size: $size;
+    font-weight: $weight;
+
+    
+}
+
+.parrafos {
+    @include fontSize(1rem , 100)
+
+
+}
