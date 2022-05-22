@@ -20,8 +20,10 @@
 
 <body>
     <div id="header">
+        <div class="logoperro"><img src="/assets/img/logo.png.png" alt="logoperro">
+        </div>
         <div id="title">
-            <a href="../index.html"> ADOPTA YÁ</a>
+            <a href="../index.html"> <h1> ADOPTA YÁ </h1></a>
         </div>
         <div id="nav-bar">
             <nav class="header">
@@ -48,19 +50,27 @@
             <legend>Dar en adopción</legend>
 
             <form>
-                <h3>sexo</h3>
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                    <option selected>Seleccione la mascota</option>
+                    <option value="1">Perro</option>
+                    <option value="2">Gato</option>
+                    
+                  </select>
+                  <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                    <option selected>Seleccione el sexo</option>
+                    <option value="1">Macho</option>
+                    <option value="2">Hembra</option>
+                    
+                  </select>
 
-                MACHO <input type="radio">
-                HEMBRA <input type="radio">
 
 
-
-                <label for="Nombre">Nombre</label>
+                <label for="Nombre"></label>
                 <input type="name" name="Nombre" placeholder="Ingrese su nombre">
 
 
 
-                <label for="Apellido">Apellido</label>
+                <label for="Apellido"></label>
                 <input type="lastname" name="Apellido" placeholder="Ingrese su apellido">
 
 

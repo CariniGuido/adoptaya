@@ -47,7 +47,9 @@ h3 {
   margin-top: 10%; }
 
 #nav-bar {
-  background-color: black;
+  background-color: black ;
+  z-index: 10px;
+   
   border: 30px;
   padding: 15px;
   text-anchor: middle;
@@ -57,7 +59,10 @@ h3 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  margin-right: 40px;
+
+ }
 
 #nav-bar a:hover {
   color: #636866; }
@@ -164,16 +169,21 @@ legend {
 
 img {
   width: 200px;
-  margin-bottom: 5%; }
+   }
 
 .spinner {
-  border: 4px solid rgba(0, 0, 0, 0.1);
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  border-left-color: #dd7b18;
-  animation: spin 2s ease infinite; }
+  
+  width: 10px;
+  height: 10px;}
+ 
 
+ 
+  .spinner-Img {
+    width: 55px;
+height: 55px;
+animation: spin 2s ease infinite; 
+
+}
 @keyframes spin {
   0% {
     transform: rotate(0deg); }
@@ -199,3 +209,21 @@ img {
   100% {
     transform: rotate(360deg);
     transform-origin: top; } }
+
+
+    .main-conteiner div{
+     display: flex;
+     margin-top: 20px;
+     margin-bottom: ;
+     align-items: baseline;
+    }
+
+    form {
+      display: flex;
+      flex-direction: row;
+     justify-content: space-around;
+      text-align:center;
+      justify-items: center;
+      justify-content: center;
+      align-content: center;
+    }

@@ -150,6 +150,46 @@ main {
   padding: 15px;
 }
 
+.spinner {  padding: 20px;
+
+  margin: 20px ;
+
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.spinner-Img  {
+  padding: 20px;
+
+  margin: 24px ;
+
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.form-floating {
+  padding: 20px;
+
+  margin: 22px ;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.btnbtn-secondary {
+  padding: 20px;
+
+  margin: 20px ;
+
+  align-items: center;
+  justify-content: center;
+
+
+}
+
 .contacto__Footer {
   background-color: black;
   color: blanchedalmond;
@@ -179,6 +219,9 @@ footer {
   grid-template-rows: 25% 25% 15%;
 }
 
+
+
+
 fieldset {
   width: 90%;
 }
@@ -189,17 +232,22 @@ legend {
 
 img {
   width: 200px;
-  margin-bottom: 5%;
+  
 }
-.spinner {
-  border: 4px solid rgba(0, 0, 0, 0.1);
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  border-left-color: rgb(221, 123, 24);
 
-  animation: spin 2s ease infinite;
-}
+  .spinner {
+  
+    width: 10px;
+    height: 10px;}
+   
+   
+    .spinner-Img {
+      width: 55px;
+  height: 55px;
+  animation: spin 2s ease infinite; 
+  
+  }
+
 
 @keyframes spin {
   0% {
